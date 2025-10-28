@@ -1,8 +1,11 @@
 # Blue Protocol Star Resonance Fishing Bot
 This is a Python-based automation bot designed to automate the fishing minigame in Blue Protocol: Star Resonance. It uses computer vision (OpenCV) and Windows API controls (pywin32) to watch the screen and simulate mouse and keyboard inputs.
 
-### Important Disclaimer
+### Important Disclaimer 1
 This project is intended for educational purposes only. Using bots or any form of automation may be against the Terms of Service of your game and could result in an account ban. Use this at your own risk.
+
+### Important Disclaimer 2
+This project works only with 1920x1080 monitors and you need the game to be in fullscreen or borderless. If you are interested to contribute to the github and make it work on different resolutions, I would appreciate it!
 
 ##  Features
 - Auto-Casting: Automatically casts the fishing line at a specified point.
