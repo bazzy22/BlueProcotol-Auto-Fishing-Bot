@@ -1,0 +1,23 @@
+This bot will NOT work for all resolutions. You must configure the coordinates, regions, and colors in main.py to match your game's resolution and UI.
+
+1. Get a Coordinate Tool: Use get_coords.py to find the (x, y) positions and (width, height) of UI elements on your screen.
+
+2. Edit main.py: Open main.py and update the variables in the " --- IMPORTANT: THESE VALUES ONLY WORK FOR 1920x1080 SCREEN ---"  section.
+
+  - FISHING_MONITOR_REGION: The main (x, y, width, height) box that contains the fishing minigame (arrows, tension bar, etc.).
+
+  - CAST_POINT: The (x, y) coordinate on your screen where the bot should click to cast the line.
+
+  - TENSION_BAR_REGION: A small (x, y, width, height) region relative to FISHING_MONITOR_REGION that covers the tension bar.
+
+  - TENSION_BAR_RED_BGR: The (B, G, R) color of the tension bar when it's in the "red" (high tension) zone.
+
+  - TENSION_BAR_WHITE_BGR: The (B, G, R) color of the tension bar when it's "white" (also high tension, based on your code).
+
+  - ARROW_REGION: The (x, y, width, height) region relative to FISHING_MONITOR_REGION where the left/right arrows appear.
+
+  - EXIT_POINT: The (x, y) coordinate on your screen for the "OK" or "Exit" button after catching a fish.
+
+  - FISHING_ROD_REGION: The (x, y, width, height) box on your screen that contains the fishing rod icon in your inventory/hotbar.
+
+  - FISHING_ROD_BUY: The (x, y) coordinate for the "Buy" button in the shop after pressing 'm' for the map.
